@@ -638,7 +638,6 @@
         WHERE COMM_NO = #{commNo}
     </update>
     
-    
     <update id="updateCommunityByAdmin" parameterType="sst.community.domain.Community">
     /* 관리자는 제목, 내용뿐만 아니라 사용여부(상태) 등 모든 필드를 제어할 수 있도록 쿼리를 구성합니다. */
     UPDATE COMMUNITY
